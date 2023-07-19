@@ -1,5 +1,3 @@
-# art.py
-
 import sys
 import random
 

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pythonmastery"
+version = "0.1.0"
+description = "My solutions to the Python Mastery course"
+authors = ["Jonas Jakubassa <jakubassa@posteo.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipython = "^8.14.0"
+mypy = "^1.4.1"
+pylama = "^8.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
